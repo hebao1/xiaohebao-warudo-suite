@@ -4,7 +4,7 @@
 
 ## 下载与安装
 
-前往 [正式发布页](https://github.com/hebao1/xiaohebao-warudo-suite/releases/latest) 下载 `Xiaohebao-Warudo-v1.0.3-win-x64.zip`。完整解压后运行“开始安装.exe”，选择包含 Warudo.exe 的文件夹。安装前请保存场景并退出 Warudo、编辑器、轮盘与桌宠（从托盘菜单退出轮盘）。后台功能助手 SuiteLauncher.exe 和配套服务由安装器自动关闭并恢复。
+前往 [正式发布页](https://github.com/hebao1/xiaohebao-warudo-suite/releases/latest) 下载 `Xiaohebao-Warudo-v1.0.5-win-x64.zip`。完整解压后运行“开始安装.exe”，选择包含 Warudo.exe 的文件夹。安装前请保存场景并退出 Warudo、编辑器、轮盘与桌宠（从托盘菜单退出轮盘）。后台功能助手 SuiteLauncher.exe 和配套服务由安装器自动关闭并恢复。
 
 安装完成后载入自己的角色，在 Mod 管理器 → Warudo轮盘 点击“一键添加小荷包功能资源”。`Ctrl+Alt+Space` 呼出轮盘。设置内有图文教程、性能参考和角色使用要求。
 
@@ -13,6 +13,10 @@
 ## 更新
 
 在“轮盘设置 → 版本与更新”检查、下载和安装新版本。后台每六小时检查一次；用户确认后才下载。更新保留个人设置和收藏，安装器备份旧程序。不要从不明来源替换更新说明或签名公钥。
+
+## 1.0.5 变化
+
+修复 Warudo 0.15.2 中角色互动玩法插件解压溢出造成的“类型缺失”，原场景互动条目与参数可以保留。切换特效的长网格列表默认折叠，移除一键生成快捷键。轮盘第 9 位可识别当前角色按钮，设置新增反馈收集与完全卸载。升级会关闭本整合包的 MatCap 后台进程，并保留用户生成的 MatCap 目录记录。
 
 ## 1.0.3 变化
 
